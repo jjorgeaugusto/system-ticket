@@ -9,11 +9,7 @@ public class Main {
 
         Categoria categoriaVIP = new Categoria("VIP",new BigInteger("2"),new BigDecimal(150.00));
 
-
         Evento eventoShow = new Evento("Henrique e Juliano","28/04/2024" ,"Porto Alegre",2,true);
-
-
-
 
         Ticket ticket1 = new Ticket(categoriaVIP,eventoShow);
         System.out.println(ticket1.toString());

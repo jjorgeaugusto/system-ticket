@@ -14,8 +14,6 @@ import java.math.BigInteger;
 @EqualsAndHashCode(of = "id")
 @Getter
 public class Ticket {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private BigInteger id;

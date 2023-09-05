@@ -21,7 +21,6 @@ public class Categoria {
     private BigInteger quantidade;
     private BigDecimal valor;
 
-
     public void diminuiQuatidade(){
         this.quantidade = quantidade.subtract(BigInteger.valueOf(1));
     }
