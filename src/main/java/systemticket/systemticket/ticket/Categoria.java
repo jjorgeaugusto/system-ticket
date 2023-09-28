@@ -31,7 +31,7 @@ public class Categoria {
     }
 
     public Categoria(BigInteger idCategoria) {
-        this.id = id;
+        this.id = idCategoria;
     }
 
     public void diminuiQuatidade(){
